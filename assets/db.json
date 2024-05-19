@@ -1,0 +1,22 @@
+{
+  "students": [
+    {
+      "name": "onur ege erkek",
+      "course": "react",
+      "instructor": "orkun durmaz",
+      "id": 6
+    },
+    {
+      "name": "barkın sayın",
+      "course": "javascript",
+      "instructor": "hicran ertugral",
+      "id": 7
+    },
+    {
+      "name": "ceren dincer",
+      "course": "react native",
+      "instructor": "buse ugras",
+      "id": 8
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+.app {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color: rgb(171, 159, 159);
+  padding-left: 30px;
+  padding-right: 30px;
+  opacity: 0.9;
+}
+.header-left span {
+  font-size: 35px;
+  color: #124076;
+  font-weight: 700;
+}
+.header-right {
+  display: flex;
+  gap: 20px;
+}
+.header-right a {
+  text-decoration: none;
+  color: #fefded;
+  font-size: 20px;
+  font-weight: 500;
+}
+.header-right a:hover {
+  color: #124076;
+  border-bottom: 1px solid #124076;
+  transition: 0.5s;
+}
+form input {
+  padding: 8px;
+  border-radius: 7px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+.student-card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.student-card {
+  background-color: #fefded;
+  position: relative;
+  width: 200px;
+  padding: 15px;
+  margin: 10px;
+}
+.create-button {
+  padding: 8px;
+  border-radius: 7px;
+  color: #fefded;
+  background-color: #124076;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 17px;
+}
+.create-button:hover {
+  color: #124076;
+  background-color: #fefded;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.delete-button {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.delete-button button {
+  padding: 8px;
+  border-radius: 7px;
+  background-color: #a0153e;
+  color: #fefded;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+}
+.delete-button button:hover {
+  background-color: #fefded;
+  color: #a0153e;
+  cursor: pointer;
+  transition: 0.5s;
+}
