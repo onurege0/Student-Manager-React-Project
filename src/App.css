@@ -2,7 +2,8 @@
   text-align: center;
   margin: 0px;
   padding: 0px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
+  list-style: none;
 }
 
 header {
@@ -38,7 +39,7 @@ header {
 form input {
   padding: 8px;
   border-radius: 7px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: 600;
   font-size: 14px;
 }
@@ -61,7 +62,7 @@ form input {
   border-radius: 7px;
   color: #fefded;
   background-color: #124076;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 17px;
 }
 .create-button:hover {
@@ -83,7 +84,7 @@ form input {
   border-radius: 7px;
   background-color: #a0153e;
   color: #fefded;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 15px;
 }
 .delete-button button:hover {
