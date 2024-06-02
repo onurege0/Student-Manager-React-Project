@@ -1,10 +1,20 @@
-import React from 'react'
-import StudentForm from '../../../components/app/student/student-form/StudentForm'
-
+import React from "react";
+import StudentForm from "../../../components/app/student/student-form/StudentForm";
+import { useEffect } from "react";
 const NewStudentPage = () => {
-  return (
-    <div><StudentForm/></div>
-  )
-}
+  useEffect(() => {
+    console.log("NewStudentPage mounted");
 
-export default NewStudentPage
+    return () => {
+      console.log("NewStudentPage unmounted");
+    };
+  }, []);
+
+  return (
+    <div>
+      <StudentForm />
+    </div>
+  );
+};
+
+export default NewStudentPage;

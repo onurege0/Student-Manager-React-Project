@@ -76,7 +76,7 @@ const useStudent = () => {
       console.log("Student could not be added", error);
     } finally {
       setIsLoading(false);
-    }
+    }    
   };
 
   const deleteStudent = async (studentId) => {

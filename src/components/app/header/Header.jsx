@@ -27,9 +27,9 @@ const Header = () => {
 //   navElements: ["placeholder1", "placeholder2"]
 // }
 
-Header.propTypes = {
-  title: propTypes.string.isRequired,
-  navElements: propTypes.arrayOf(propTypes.string).isRequired,
-};
+// Header.propTypes = {
+//   title: propTypes.string.isRequired,
+//   navElements: propTypes.arrayOf(propTypes.string).isRequired,
+// };
 
 export default Header;

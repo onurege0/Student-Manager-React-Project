@@ -1,10 +1,21 @@
-import React from 'react'
-import StudentList from '../../../components/app/student/student-list/StudentList'
+import React from "react";
+import StudentList from "../../../components/app/student/student-list/StudentList";
+import { useEffect } from "react";
 
 const StudentListPage = () => {
-  return (
-    <div><StudentList/></div>
-  )
-}
+  useEffect(() => {
+    console.log("StudentListPage mounted");
 
-export default StudentListPage
+    return () => {
+      console.log("StudentListPage unmounted");
+    };
+  }, []);
+
+  return (
+    <div>
+      <StudentList />
+    </div>
+  );
+};
+
+export default StudentListPage;

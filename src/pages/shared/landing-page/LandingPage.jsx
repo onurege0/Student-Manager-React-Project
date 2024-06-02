@@ -1,9 +1,15 @@
-import React from 'react'
+import React, { useEffect } from "react";
 
 const LandingPage = () => {
-  return (
-    <h2>Welcome To Student Manager</h2>
-  )
-}
+  useEffect(() => {
+    console.log("Landing Page mounted");
 
-export default LandingPage
+    return () => {
+      console.log("Landing Page unmounted");
+    };
+  }, []);
+
+  return <h2>Welcome To Student Manager</h2>;
+};
+
+export default LandingPage;
